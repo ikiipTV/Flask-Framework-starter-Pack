@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 from flask import url_for
-from flask import g
+from flask import sqlite3
 app = Flask(__name__)
 
 #initialize the application
@@ -50,6 +50,12 @@ def addrec():
         finally:
             return render_template('addrec.html', msg=msg)
             conn.close()
+            
+  if __name__ = '__main__'
+  
+  #tdebug=true allows you to see changes in the coding environment
+  #without running the server again.
+  app.run(debug = true)
             
  
         
